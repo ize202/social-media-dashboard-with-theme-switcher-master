@@ -1,0 +1,32 @@
+/*
+breakpoint.scss is a partial file that is imported into index.scss 
+and is used to create the breakpoints for the media queries. 
+It allows for a responsive design.
+*/
+
+// 640px, 1024px, 1440px
+$breakpoints-up: (
+  'md': 40em,
+  'lg': 64em,
+  'xl': 87.53m
+);
+
+// 639px, 1023px, 1399px
+$breakpoints-down: (
+  'sm': 39.9375em,
+  'md': 63.9375em,
+  'lg': 87.4375em
+);
+
+// Mixin function to use in other files to call the breakpoints 
+@mixin breakpoint($size) {
+   @media (min-width: map-get($breakpoints-up, $size)) {
+      @content;
+   }
+}
+
+@mixin breakpoint-down($size) {
+   @media (max-width: map-get($breakpoints-down, $size)) {
+      @content;
+   }
+}

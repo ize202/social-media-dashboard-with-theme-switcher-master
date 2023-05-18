@@ -1,0 +1,39 @@
+/*
+We use :root to set the colors as CSS variables.
+
+The CSS :root pseudo-class selector is used to select the highest-level parent 
+of a given specification. In the HTML specification, the :root is essentially equivalent 
+to the html selector.
+
+:root {
+  background-color: gray;
+}
+
+html {
+  background-color: gray;
+}
+
+*/
+:root {
+    --limegreen: hsl(163, 72%, 41%);
+    --brightred: hsl(356, 69%, 56%);
+    --facebook: hsl(208, 92%, 53%);
+    --twitter: hsl(203, 89%, 53%);
+    --instagram-1: hsl(37, 97%, 70%);
+    --instagram-2: hsl(329, 70%, 58%);
+    --youtube: hsl(348, 97%, 39%);
+    --toggle: linear-gradient(to right, hsl(210, 78%, 56%), hsl(146, 68%, 55%));
+    --toggle-bg: hsl(230, 22%, 74%);
+    --dark-bg: hsl(230, 17%, 14%);
+    --dark-top-bg: hsl(232, 19%, 15%);
+    --dark-card-bg: hsl(228, 28%, 20%);
+    --dark-blue-text: hsl(228, 34%, 66%);
+    --dark-white-text: hsl(0, 0%, 100%);
+    --light-bg: hsl(0, 0%, 100%);
+    --light-top-bg: hsl(225, 100%, 98%);
+    --light-card-bg: hsl(227, 47%, 96%);
+    --light-blue-text: hsl(228, 12%, 44%);
+    --light-dark-blue-text: hsl(230, 17%, 14%);
+}
+
+

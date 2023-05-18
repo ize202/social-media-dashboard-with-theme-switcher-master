@@ -1,0 +1,4 @@
+// converts pixels to rem
+@function rem($px, $content: 16) {
+  @return $px / $content * 1rem;
+}
