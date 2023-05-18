@@ -1,0 +1,28 @@
+:root {
+    font-size: 100%;
+    /*
+    Set the box-sizing property to border-box so that the padding 
+    and border are included in the total width and height of the elements.
+    https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing
+    */
+    box-sizing: border-box;
+}
+
+/*
+the *, *::before, *::after { box-sizing: inherit; } 
+rule sets every element on the page and their ::before and ::after pseudo-elements 
+to inherit the box-sizing property from their parent element. 
+This is often done at the root level (often with html { box-sizing: border-box; }) 
+to establish a consistent box-sizing method across the entire page
+*/
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+
+body {
+    font-family: var(--font-inter);
+    margin: 0;
+    padding: 0;
+}
