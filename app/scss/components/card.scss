@@ -1,0 +1,9 @@
+/*
+Imports all members (variables, functions, mixins) from the '../util' module.
+This allows us to use those members in this stylesheet.
+*/
+@use '../util' as *;
+
+.card {
+    padding: rem(20)
+}

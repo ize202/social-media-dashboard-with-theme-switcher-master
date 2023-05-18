@@ -1,0 +1,14 @@
+/*
+Imports all members (variables, functions, mixins) from the '../util' module.
+This allows us to use those members in this stylesheet.
+*/
+@use '../util' as *;
+
+.toggle {
+    &__button {
+        width: rem(16);
+        height: rem(16);
+        border-radius: 50%;
+        background-color: var(--toggle-bg);
+    }
+}
