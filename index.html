@@ -27,69 +27,86 @@
   </style>
 </head>
 <body>
+  <header class="header container"> 
+  <div class="header__title">
+    <h1>Social Media Dashboard</h1> 
+    <span class="header__followers">Total Followers: 23,004</span>
+  </div>
 
-<h1>Social Media Dashboard </h1>
-  Total Followers: 23,004
-
-  Dark Mode
-
-  
-
-  @nathanf
-  1987
-  Followers
-  12 Today
-
-  @nathanf
-  1044
-  Followers
-  99 Today
-
-  @realnathanf
-  11k
-  Followers
-  1099 Today
-
-  Nathan F.
-  8239
-  Subscribers
-  144 Today
+  <fieldset class="heaeder__toggle toggle" aria-lablel="theme toggle" role="radio-group">
+    <label for="dark"></label>Dark</label>
+    <div class="toggle__wrapper">
+      <input type="radio" name="theme" id="light">
+      <input type="radio" name="theme" id="system" checked>
+      <input type="radio" name="theme" id="dark">
+      <span aria-hidden="true" class="toggle__background"></span>
+      <span aria-hidden="true" class="toggle__button"></span>
+    </div>
+    <label for="system">System</label>
+    <label for="light">Light</label>
+  </fieldset> 
 
 
+  </header>
+  <main>
+    <section>
 
-  Overview - Today
+    </section>
+    @nathanf
+    1987
+    Followers
+    12 Today
 
-  Page Views
-  87
-  3%
+    @nathanf
+    1044
+    Followers
+    99 Today
 
-  Likes
-  52
-  2%
+    @realnathanf
+    11k
+    Followers
+    1099 Today
 
-  Likes
-  5462
-  2257%
+    Nathan F.
+    8239
+    Subscribers
+    144 Today
 
-  Profile Views
-  52k
-  1375%
 
-  Retweets
-  117
-  303%
 
-  Likes
-  507
-  553%
+    Overview - Today
 
-  Likes
-  107
-  19%
+    Page Views
+    87
+    3%
 
-  Total Views
-  1407
-  12%
+    Likes
+    52
+    2%
+
+    Likes
+    5462
+    2257%
+
+    Profile Views
+    52k
+    1375%
+
+    Retweets
+    117
+    303%
+
+    Likes
+    507
+    553%
+    
+    Likes
+    107
+    19%
+    Total Views
+    1407
+    12%
+  </main>
   
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 

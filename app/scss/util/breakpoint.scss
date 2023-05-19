@@ -4,17 +4,17 @@ and is used to create the breakpoints for the media queries.
 It allows for a responsive design.
 */
 
-// 640px, 1024px, 1440px
+// 640px, 1150px, 1440px
 $breakpoints-up: (
   'md': 40em,
-  'lg': 64em,
+  'lg': 71.875em,
   'xl': 87.53m
 );
 
-// 639px, 1023px, 1399px
+// 639px, 1149px, 1399px
 $breakpoints-down: (
   'sm': 39.9375em,
-  'md': 63.9375em,
+  'md': 71.8125em,
   'lg': 87.4375em
 );
 

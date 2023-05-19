@@ -1,3 +1,5 @@
+@use '../util' as *;
+
 /* 
    Removes top margin from H1, H2, H3 tags.
    This can help with better vertical spacing and alignment of heading tags.
@@ -7,6 +9,13 @@ h1, h2, h3 {
 
 }
 
+h1 {
+    font-size: rem(24);
+    margin-bottom: rem(3);
+    @include breakpoint(lg) {
+        font-size: rem(28);
+    }
+}
 /* 
    Removes text decoration (underline) from all states of anchor tags.
    This can help make links align better with the overall design aesthetics.
