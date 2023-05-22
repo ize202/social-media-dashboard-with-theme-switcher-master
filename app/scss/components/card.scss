@@ -83,20 +83,7 @@ This allows us to use those members in this stylesheet.
 
   &__icon {
     margin-right: rem(8);
-
-    &--facebook {
-    }
-
-    &--twitter {
-    }
-
-    &--instagram {
-    }
-
-    &--youtube {
-    }
   }
-
   &__username {
     font-size: rem(12);
     font-weight: 700;
@@ -149,8 +136,5 @@ This allows us to use those members in this stylesheet.
     img {
       margin-right: rem(4);
     }
-  }
-
-  &__number {
   }
 }
